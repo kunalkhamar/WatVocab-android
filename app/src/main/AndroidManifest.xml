@@ -27,7 +27,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".WelcomeActivity" />
-        <activity android:name=".NewVocabActivity"></activity>
+        <activity android:name=".NewVocabActivity" />
+        <activity android:name=".VocabActivity"></activity>
     </application>
 
 </manifest>

@@ -63,5 +63,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="Create Vocab"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:onClick="openVocabActivity" />
 </RelativeLayout>
