@@ -6,4 +6,15 @@
     <string name="login_failed">Login failed</string>
     <string name="login_with_username">Login with Username</string>
     <string name="username">Username</string>
+    <string name="vocabNameHint">Spanish 101</string>
+    <string name="vocabName">Vocab Name</string>
+    <string name="frontLanguage">Front Language</string>
+    <string name="backLanguage">Back Language</string>
+
+    <string-array name="Languages">
+        <item>Select Language</item>
+        <item>English</item>
+        <item>Korean</item>
+        <item>Japanese</item>
+    </string-array>
 </resources>

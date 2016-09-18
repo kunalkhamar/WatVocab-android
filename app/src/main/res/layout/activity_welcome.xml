@@ -24,7 +24,8 @@
         android:text="Create Vocab"
         android:id="@+id/button_createVocab"
         android:layout_below="@+id/textView_userid"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="createNewVocab"/>
 
     <Button
         android:layout_width="wrap_content"

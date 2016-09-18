@@ -3,6 +3,7 @@ package com.kunalkhamar.watvocab_android;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class WelcomeActivity extends AppCompatActivity {
@@ -18,5 +19,10 @@ public class WelcomeActivity extends AppCompatActivity {
         String userid = intent.getStringExtra(LoginActivity.USER_ID);
         textView = (TextView) findViewById(R.id.textView_userid);
         textView.setText("Welcome " + userid);
+    }
+
+    public void createNewVocab(View view){
+        Intent intent = new Intent(WelcomeActivity.this, NewVocabActivity.class);
+        startActivity(intent);
     }
 }
