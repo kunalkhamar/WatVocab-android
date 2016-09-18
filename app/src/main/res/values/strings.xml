@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">WatVocab-android</string>
-    <string name="facebook_app_id">208702946210756</string>
+    <string name="facebook_app_id">1120844011298817</string>
+
+    <string name="login_aborted">User cancelled</string>
+    <string name="login_failed">Login failed</string>
+    <string name="login_with_username">Login with Username</string>
+    <string name="username">Username</string>
 </resources>
